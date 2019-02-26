@@ -1,0 +1,17 @@
+<h1 style="color : aqua">Services</h1>
+{{outlet}}
+nb sélectionnés : {{model.countActive}}<br>
+Montant : {{model.sumActive}}<br>
+  <div class="list-group">
+  {{#each model.services as |service|}}
+    <div class="list-group-item {{action "toggleActive" service on ="click"}}
+      {{if service.active "active"}}">
+      <div class="row">
+        <div class="col-md-6">{{service.name}}</div>
+        <div class="col-md-6">{{service.price}}</div>
+      </div>
+
+    </div>
+    {{input type="checkbox" checked=service.active}}
+  {{/each}}
+  </div>

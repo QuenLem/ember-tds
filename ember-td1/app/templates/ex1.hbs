@@ -1,0 +1,10 @@
+{{textarea class="form-control" value=model.content cols="80" rows="10" maxlength="100"}}
+<div> Caractères restants : {{model.size}}</div>
+{{outlet}}
+<button {{action "save" model }}>Enregistrer</button>
+<button {{action "clear" model }}>Effacer</button>
+{{#if model.info}}
+  <div class="alert alert-success">
+    {{model.info}}
+  </div>
+{{/if}}
