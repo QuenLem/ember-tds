@@ -2,11 +2,12 @@ import Route from '@ember/routing/route';
 
 export default Route.extend({
   model() {
-    return this.store.findAll('developer');
+    return {copy: {}};
   },
   actions:{
-    delete(dev){
-      dev.destroyRecord();
+    save(dev){
+      dev=this.store.createRecord('developer',dev.copy);
+      dev.save();
     }
   }
 });
