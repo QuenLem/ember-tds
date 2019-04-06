@@ -7,6 +7,7 @@ export default Route.extend({
   actions:{
     delete(dev){
       dev.destroyRecord();
+
     }
   }
 });

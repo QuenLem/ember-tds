@@ -10,7 +10,9 @@ Router.map(function() {
   this.route('developers', function() {
     this.route('new');
     this.route('edit',{path:'edit/:developer_id'});
-    });
+    this.route('delete');
   });
+  this.route('delete-route');
+});
 
 export default Router;
