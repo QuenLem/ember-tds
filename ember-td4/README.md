@@ -3,6 +3,10 @@
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
+## Contenu 
+Ce td4 est une application de gestion de projets utilisant mongodb pour la base de données.
+Im y'a plusieurs routes d'effectuées, notament les routes projects et developers qui servet en théorie à ajouter respectivement un projet (non fonctionnel) et un développer mais aussi à supprimer des choses s'y trouvant dedans. 
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
