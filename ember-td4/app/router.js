@@ -13,6 +13,11 @@ Router.map(function() {
     this.route('delete');
   });
   this.route('delete-route');
+  this.route('projects', function() {
+    this.route('new');
+    this.route('edit');
+    this.route('delete');
+  });
 });
 
 export default Router;
