@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc2b9d1d-60c1-4543-80da-80c63d564737" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/developers/delete.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/developers/delete.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/projects/new.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/projects/new.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/developers/delete.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/developers/delete.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/projects.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/projects.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/projects/new.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/projects/new.hbs" afterDir="false" />
-    </list>
+    <list default="true" id="cc2b9d1d-60c1-4543-80da-80c63d564737" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -39,19 +30,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/projects/new.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+            <state relative-caret-position="374">
+              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/routes/projects/new.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/routes/projects/new.js">
+        <entry file="file://$PROJECT_DIR$/app/serializers/project.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="170">
+              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,6 +118,7 @@
         <option value="$PROJECT_DIR$/app/templates/projects.hbs" />
         <option value="$PROJECT_DIR$/app/templates/project.hbs" />
         <option value="$PROJECT_DIR$/app/routes/projects/new.js" />
+        <option value="$PROJECT_DIR$/app/serializers/project.js" />
       </list>
     </option>
   </component>
@@ -169,12 +173,6 @@
               <item name="ember-td4" type="b2602c69:ProjectViewProjectNode" />
               <item name="ember-td4" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ember-td4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ember-td4" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -183,6 +181,12 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
               <item name="projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ember-td4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ember-td4" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="serializers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ember-td4" type="b2602c69:ProjectViewProjectNode" />
@@ -252,12 +256,12 @@
       <workItem from="1553860835270" duration="3680000" />
       <workItem from="1554195975750" duration="2048000" />
       <workItem from="1554234830736" duration="923000" />
-      <workItem from="1554537125677" duration="13673000" />
+      <workItem from="1554537125677" duration="14720000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27763000" />
+    <option name="totallyTimeSpent" value="28810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="906" height="735" extended-state="0" />
@@ -457,17 +461,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/projects/new.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        <state relative-caret-position="374">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes/projects/new.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="17">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/serializers/project.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
